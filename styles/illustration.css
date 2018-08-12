@@ -199,6 +199,44 @@ width: 100%;
   color: #4a4a4a;
   -webkit-transform: scale(0.90);
 }
+
+
+.lightbox {
+  display: none;
+height: 100%;
+width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  filter: blur(2px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.lightbox img {
+  display: block;
+  padding-top:200px;
+  margin:auto;
+height: 60%;
+  width:auto;
+
+}
+.lightbox .caption {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 20px auto;
+  letter-spacing: 4px;
+
+  font-size: 1em;
+  line-height: 1.6;
+  font-weight: 700;
+  color: #eee;
+}
+/* //////////////////////////////////// -footer- /////////////////////////////////////// */
 @media screen and (max-width: 1200px) {
 
 	.gallery {
