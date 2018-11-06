@@ -31,7 +31,7 @@ console.log("Test");
     http.setRequestHeader("Access-Control-Allow-Origin", "*");
 
     movie = movie.toString();
-    var url = "https://itunes.apple.com/search?term=" + movie + "&entity=movie";
+    var url = "https://itunes.apple.com/search?term=" + movie + "&entity=song";
     var method = "GET";
     var container = document.querySelector('#movie_list_container');
     container.innerHTML = '';
