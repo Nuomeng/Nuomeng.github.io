@@ -1,8 +1,8 @@
 var img1;
 var img2;
 function preload(){
-  img1 = loadImage("https://myimage6002.oss-us-east-1.aliyuncs.com/dian%402x.png");  // Load the image
-	img2 = loadImage("https://myimage6002.oss-us-east-1.aliyuncs.com/dian%402x.png");
+  img1 = loadImage("data/dian2x.png");  // Load the image
+	img2 = loadImage("data/heng2x.png");
 }
 function setup() {
 	createCanvas(windowWidth, windowHeight);
