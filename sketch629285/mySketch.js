@@ -1,8 +1,8 @@
 var img1;
 var img2;
 function preload(){
-  img1 = loadImage("data/dian2x.png");  // Load the image
-	img2 = loadImage("data/heng2x.png");
+  img1 = loadImage("data/dian@2x.png");  // Load the image
+	img2 = loadImage("data/heng@2x.png");
 }
 function setup() {
 	createCanvas(windowWidth, windowHeight);
